@@ -1,0 +1,107 @@
+body {
+	background-color: #555;
+}
+
+main {
+	width: 1200px;
+	min-height: 800px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	font-family: bebas-neue, sans-serif;
+	font-size: 26px;
+	line-height: 240px;
+	text-align: center;
+	color: white;
+}
+
+ul {
+	display: block;
+	width: 100%;
+	list-style: none;
+}
+
+li {
+	display: block;
+	float: left;
+	width: 20%;
+	height: 240px;
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+li:first-child,
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(10) {
+	width: 40%;
+	background-color: transparent;
+}
+
+li:nth-child(4),
+li:nth-child(8){
+	clear: both;
+}
+
+li:nth-child(8){
+	background-color: transparent;
+}
+
+li a {
+	display: block;
+}
+
+/* some flexbox for the logo */
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+.logo img {
+	display: block;
+	margin-right: 20px;
+}
+
+.logo a {
+	line-height: 1.4;
+	margin-right: 20px;
+}
+
+/* some colors for links */
+
+.link1 {
+	background-color: #2C2F45;
+}
+
+.link2 {
+	background-color: #1C2245;
+}
+
+.link3 {
+	background-color: #3B8C96;
+}
+
+.link4 {
+	background-color: #853983;
+}
+
+.link5 {
+	background-color: #691D67;
+}
+
+.link6 {
+	background-color: #1A6D73;
+}
+
+

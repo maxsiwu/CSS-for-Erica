@@ -1,6 +1,5 @@
 # CSS-for-Erica
 Front Page layout
-
 1. All blocks are list items
 2. Use of float for all <li>
 3. Flexbox only used for logo <li> block
